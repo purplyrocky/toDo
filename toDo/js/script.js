@@ -51,19 +51,18 @@ function setUp(){
     var editBtns = document.querySelectorAll('.edit');
     //add event listener to button to run a function when clicked
     for ( var i = 0; i < delBtns.length; i++) {
-
         //what does this do... make a var out of the delBtn? yea..
         var delBtn = delBtns[i];
-
         //this attaches an event listener to the click event for the delBtn and runs the removeItem func when clicked
         delBtn.addEventListener('click', removeItem);
-
         //function removes the list item it's within and when clicked confirm they really want to delete
-
     }
-
+    for (i = 0; i < editBtns.length; i++) {
+        var editBtn = editBtns[i];
+        editBtn.addEventListener('click', editItem);
+    }
 }
-
+//function will remove the entire list item
 function removeItem(){
     var uSure = confirm('You sure you want to delete this item?');
     if (uSure === true){
@@ -72,15 +71,8 @@ function removeItem(){
 
     }
 }
-
-
-//add event listener to button to run function when clicked
-for (i = 0; i < edit; i++) {
-    var editBtn = edit[i];
-    editBtn.addEventListener('click', editItem);
-}
 //function should turn item into input field then change back to item when "enter" key is pressed
 function editItem(){
-
+    alert('hey');
 }
 
