@@ -1,11 +1,13 @@
 /*** Created by Rocky on 4/14/2015.*/
 //grab the button from html
 var myBtn = document.getElementById('myBtn');
+
 //add event listener to button to run a function when clicked
 myBtn.addEventListener('click', createTask);
 
 //grab the ul from the HTML
 var list = document.getElementById('list');
+
 //grab the input field from the HTML
 var inputTask = document.getElementById('inputTask');
 
@@ -24,7 +26,7 @@ function createTask(e){
     '<button id="edit" type="submit" class="btn btn-default">Edit</button>' +
     '<button id="del" type="submit" class="btn btn-default">Delete</button>';
     //add item to the list
-    //list.appendChild(theLi);
+    list.appendChild(theLi);
 
     //push li to tasks array
     tasks.push(inputValue);
