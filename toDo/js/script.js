@@ -25,11 +25,15 @@ function createTask(e){
     var newLi = theLi.innerHTML = '<input type="checkbox">' + inputValue +
     '<button id="edit" type="submit" class="btn btn-default">Edit</button>' +
     '<button id="del" type="submit" class="btn btn-default">Delete</button>';
+
     //add item to the list
     list.appendChild(theLi);
 
     //push li to tasks array
     tasks.push(inputValue);
+    //add item to the list on
+    list.appendChild(tasks);
+
     console.log(tasks);
     //clear the input field
     inputTask.value = '';
@@ -37,9 +41,8 @@ function createTask(e){
 
 //grab the edit button from the HTML
 var edit = document.getElementById('edit');
-
 //add event listener to button to run function when clicked
-//edit.addEventListener('click', editItem() {
+edit.addEventListener('click', editItem() {
     //function should turn item into input field then change back to item when "enter" key is pressed
 
 //});
