@@ -40,9 +40,9 @@ function createTask(e){
 }
 
 //grab the edit button from the HTML
-//var edit = document.getElementById('edit');
+var edit = document.getElementById('edit');
 //add event listener to button to run function when clicked
-//edit.addEventListener('click', editItem() {
+edit.addEventListener('click', editItem() {
     //function should turn item into input field then change back to item when "enter" key is pressed
 
 //});
