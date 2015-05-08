@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53ea1fc2-7761-434f-b1d8-17823a0d7efc" name="Default" comment="" />
+    <list default="true" id="53ea1fc2-7761-434f-b1d8-17823a0d7efc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/toDo/js/script.js" afterPath="$PROJECT_DIR$/toDo/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="JS1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,7 +31,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toDo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.384615" vertical-offset="139" max-vertical-offset="612">
+            <state vertical-scroll-proportion="-8.5" vertical-offset="136" max-vertical-offset="612">
               <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
@@ -48,8 +51,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/toDo/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66883117" vertical-offset="730" max-vertical-offset="952">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.084415585" vertical-offset="446" max-vertical-offset="935">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -453,7 +456,7 @@
       <updated>1429062660439</updated>
       <workItem from="1429062661161" duration="5447000" />
       <workItem from="1429233651579" duration="1288000" />
-      <workItem from="1430875368440" duration="29631000" />
+      <workItem from="1430875368440" duration="31449000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1429234327773</created>
@@ -465,7 +468,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36366000" />
+    <option name="totallyTimeSpent" value="38184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="21" width="1365" height="688" extended-state="0" />
@@ -620,7 +623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/toDo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.384615" vertical-offset="139" max-vertical-offset="612">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="136" max-vertical-offset="612">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding />
         </state>
@@ -628,8 +631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/toDo/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66883117" vertical-offset="730" max-vertical-offset="952">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.084415585" vertical-offset="446" max-vertical-offset="935">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>
