@@ -48,8 +48,8 @@ function createTask(e){
 function setUp(){
     //grab the delete/edit buttons from the HTML
     var delBtns = document.querySelectorAll('.del');
+    var editBtns = document.querySelectorAll('.edit');
     //add event listener to button to run a function when clicked
-    debugger
     for ( var i = 0; i < delBtns.length; i++) {
 
         //what does this do... make a var out of the delBtn? yea..
@@ -65,12 +65,15 @@ function setUp(){
 }
 
 function removeItem(){
-    alert('hi there');
-    this.parentNode.outerHTML = '';
+    var uSure = confirm('You sure you want to delete this item?');
+    if (uSure === true){
+        this.parentNode.outerHTML = '';
+    } else {
+
+    }
 }
 
-//grab the edit button from the HTML
-var edit = document.querySelectorAll('.edit');
+
 //add event listener to button to run function when clicked
 for (i = 0; i < edit; i++) {
     var editBtn = edit[i];
